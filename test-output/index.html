@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\91964\AppData\Local\Temp\testng-eclipse-1310833155\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(callback, wsSearchCB)">searchAPITest(callback, wsSearchCB)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(country, IN)">searchAPITest(country, IN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(version, 2.0)">searchAPITest(version, 2.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(entity, movieArtist)">searchAPITest(entity, movieArtist)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(media, movie)">searchAPITest(media, movie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(lang, en_us)">searchAPITest(lang, en_us)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(attribute, actorTerm)">searchAPITest(attribute, actorTerm)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(country, ZA)">searchAPITest(country, ZA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(term, john johnson)">searchAPITest(term, john johnson)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITest(explicit, N)">searchAPITest(explicit, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestInvalidValues(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity])">searchAPITestInvalidValues(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestInvalidValues(media, mediaInvalid, Invalid value(s) for key(s): [mediaType])">searchAPITestInvalidValues(media, mediaInvalid, Invalid value(s) for key(s): [mediaType])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestInvalidValues(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType])">searchAPITestInvalidValues(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestInvalidValues(country, DDA, Invalid value(s) for key(s): [country])">searchAPITestInvalidValues(country, DDA, Invalid value(s) for key(s): [country])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestMultiKeyValues(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex)">searchAPITestMultiKeyValues(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestMultiKeyValues(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm)">searchAPITestMultiKeyValues(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Apple.HomeAssignment.SearchAPITest" class="method navigator-link" hash-for-method="searchAPITestMultiKeyValues(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm)">searchAPITestMultiKeyValues(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Apple.HomeAssignment.SearchAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(callback, wsSearchCB)">
+                  </a> <!-- searchAPITest(callback, wsSearchCB) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(callback, wsSearchCB)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(country, IN)">
+                  </a> <!-- searchAPITest(country, IN) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(country, IN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(version, 2.0)">
+                  </a> <!-- searchAPITest(version, 2.0) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(version, 2.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(entity, movieArtist)">
+                  </a> <!-- searchAPITest(entity, movieArtist) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(entity, movieArtist)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(media, movie)">
+                  </a> <!-- searchAPITest(media, movie) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(media, movie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(lang, en_us)">
+                  </a> <!-- searchAPITest(lang, en_us) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(lang, en_us)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(attribute, actorTerm)">
+                  </a> <!-- searchAPITest(attribute, actorTerm) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(attribute, actorTerm)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(country, ZA)">
+                  </a> <!-- searchAPITest(country, ZA) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(country, ZA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(term, john johnson)">
+                  </a> <!-- searchAPITest(term, john johnson) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(term, john johnson)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITest(explicit, N)">
+                  </a> <!-- searchAPITest(explicit, N) -->
+                  <span class="method-name">searchAPITest</span>
+                  <span class="parameters">(explicit, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestInvalidValues(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity])">
+                  </a> <!-- searchAPITestInvalidValues(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity]) -->
+                  <span class="method-name">searchAPITestInvalidValues</span>
+                  <span class="parameters">(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestInvalidValues(media, mediaInvalid, Invalid value(s) for key(s): [mediaType])">
+                  </a> <!-- searchAPITestInvalidValues(media, mediaInvalid, Invalid value(s) for key(s): [mediaType]) -->
+                  <span class="method-name">searchAPITestInvalidValues</span>
+                  <span class="parameters">(media, mediaInvalid, Invalid value(s) for key(s): [mediaType])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestInvalidValues(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType])">
+                  </a> <!-- searchAPITestInvalidValues(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType]) -->
+                  <span class="method-name">searchAPITestInvalidValues</span>
+                  <span class="parameters">(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestInvalidValues(country, DDA, Invalid value(s) for key(s): [country])">
+                  </a> <!-- searchAPITestInvalidValues(country, DDA, Invalid value(s) for key(s): [country]) -->
+                  <span class="method-name">searchAPITestInvalidValues</span>
+                  <span class="parameters">(country, DDA, Invalid value(s) for key(s): [country])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestMultiKeyValues(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex)">
+                  </a> <!-- searchAPITestMultiKeyValues(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex) -->
+                  <span class="method-name">searchAPITestMultiKeyValues</span>
+                  <span class="parameters">(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestMultiKeyValues(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm)">
+                  </a> <!-- searchAPITestMultiKeyValues(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm) -->
+                  <span class="method-name">searchAPITestMultiKeyValues</span>
+                  <span class="parameters">(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAPITestMultiKeyValues(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm)">
+                  </a> <!-- searchAPITestMultiKeyValues(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm) -->
+                  <span class="method-name">searchAPITestMultiKeyValues</span>
+                  <span class="parameters">(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91964\AppData\Local\Temp\testng-eclipse-1310833155\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Apple.HomeAssignment.SearchAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchAPITest')
+data.setCell(0, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(0, 3, 1041);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchAPITestInvalidValues')
+data.setCell(1, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(1, 3, 704);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchAPITestInvalidValues')
+data.setCell(2, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(2, 3, 517);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchAPITestInvalidValues')
+data.setCell(3, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(3, 3, 507);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchAPITestInvalidValues')
+data.setCell(4, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(4, 3, 501);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchAPITest')
+data.setCell(5, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(5, 3, 126);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchAPITestMultiKeyValues')
+data.setCell(6, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(6, 3, 125);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchAPITest')
+data.setCell(7, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(7, 3, 121);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchAPITestMultiKeyValues')
+data.setCell(8, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(8, 3, 116);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchAPITest')
+data.setCell(9, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(9, 3, 105);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchAPITest')
+data.setCell(10, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(10, 3, 104);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchAPITestMultiKeyValues')
+data.setCell(11, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(11, 3, 103);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchAPITest')
+data.setCell(12, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(12, 3, 103);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchAPITest')
+data.setCell(13, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(13, 3, 102);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchAPITest')
+data.setCell(14, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(14, 3, 100);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchAPITest')
+data.setCell(15, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(15, 3, 100);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchAPITest')
+data.setCell(16, 2, 'Apple.HomeAssignment.SearchAPITest')
+data.setCell(16, 3, 97);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Apple.HomeAssignment.SearchAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(term, john johnson)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(country, IN)</span>
+                <span class="method-start">1043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(country, ZA)</span>
+                <span class="method-start">1149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(media, movie)</span>
+                <span class="method-start">1276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(entity, movieArtist)</span>
+                <span class="method-start">1377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(attribute, actorTerm)</span>
+                <span class="method-start">1475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(callback, wsSearchCB)</span>
+                <span class="method-start">1599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(lang, en_us)</span>
+                <span class="method-start">1701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(version, 2.0)</span>
+                <span class="method-start">1805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITest(explicit, N)</span>
+                <span class="method-start">1908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestInvalidValues(country, DDA, Invalid value(s) for key(s): [country])</span>
+                <span class="method-start">2040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestInvalidValues(entity, entityInvalid, Invalid value(s) for key(s): [resultEntity])</span>
+                <span class="method-start">2744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestInvalidValues(attribute, attributeInvalid, Invalid value(s) for key(s): [attributeType])</span>
+                <span class="method-start">3252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestInvalidValues(media, mediaInvalid, Invalid value(s) for key(s): [mediaType])</span>
+                <span class="method-start">3769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestMultiKeyValues(term, john jackson, country, ZA, media, movie, entity, movieArtist, attribute, actorTerm)</span>
+                <span class="method-start">4291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestMultiKeyValues(term, michael jackson, country, IN, media, musicVideo, entity, musicArtist, attribute, artistTerm)</span>
+                <span class="method-start">4410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAPITestMultiKeyValues(term, Selena Gomez, country, US, media, tvShow, entity, tvSeason, attribute, genreIndex)</span>
+                <span class="method-start">4536 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
